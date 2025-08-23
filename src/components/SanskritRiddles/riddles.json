@@ -1,0 +1,62 @@
+[
+  {
+    "riddle": "सूर्यस्य सखा सुखश्च तापश्च कथम्?",
+    "translation": "What is the friend of the sun that brings warmth and happiness?",
+    "hint": "It comes in the morning and brightens the day.",
+    "answer": "प्रकाशः (Light)"
+  },
+  {
+    "riddle": "नद्या प्रवहन्ति किन्तु स्थिरा न भवति।",
+    "translation": "The river flows but it never becomes stagnant.",
+    "hint": "It keeps moving and never stops.",
+    "answer": "समयः (Time)"
+  },
+  {
+    "riddle": "मेघश्यामोऽस्मि नो कृष्णो, महाकायो न पर्वतः । बलिष्ठोऽस्मि न भीमोऽस्मि, कोऽस्म्यहं नासिकाकरः ॥",
+    "translation": "I am cloud-dark but not black, big-bodied but not a mountain. I am strong but not fearsome; who am I with long ears and nose?",
+    "hint": "It’s a large, strong animal with long ears and trunk.",
+    "answer": "हाथी (Elephant)"
+  },
+  {
+    "riddle": "एकाकी द्वारी तिष्ठामि गृहपतौ बहिर्गते। गृहरक्षाकरः शुरो लघुमूर्तिः सुकीर्तिमान्॥",
+    "translation": "I stand alone at the door when the householder goes out. I guard the house, brave but small in form and famous in deed.",
+    "hint": "It secures the house and can be small but important.",
+    "answer": "ताला (Lock)"
+  },
+  {
+    "riddle": "स्नेहं ददाति यो मह्यं, नित्यं तस्मै ददाम्यहम् । ज्योतिः पदार्थज्ञानार्थं, कोऽपि वदतु साम्प्रतम् ॥",
+    "translation": "Who gives me love, I give it daily. Food and drink it gives, I give knowledge through light. Burning all night, I am the source of light’s breath. Tell my strong name if you are wise and brave.",
+    "hint": "It burns to give light through the night.",
+    "answer": "दीपक (Lamp)"
+  },
+  {
+    "riddle": "वृक्षाग्रवासी न च पक्षिराजः, त्रिनेत्रधारी न च शूलपाणिः । त्वग्वस्त्रधारी न च सिद्ध योगी, जलं च बिप्रन्ह घटोत्कचः न मेघः ॥",
+    "translation": "It lives atop trees but is not the king of birds; has three eyes but is not Shiva; wears bark like clothing but is not an ascetic; holds water but is neither a pot nor cloud.",
+    "hint": "A tropical fruit known for its hard shell and water content.",
+    "answer": "नारियल (Coconut)"
+  },
+  {
+    "riddle": "न तस्यादिः न तस्यान्तः मध्ये यः तस्य तिष्ठति। तवाप्यस्ति ममाप्यस्ति यदि जानासि तद्वद।।",
+    "translation": "It has no start nor end 'na', but in the middle it has 'ya' which you and I both have. What is it?",
+    "hint": "A Sanskrit word meaning 'eye'.",
+    "answer": "नयन (Eye)"
+  },
+  {
+    "riddle": "वृक्षाग्रवासी न च पक्षिराजः तृणं च शय्या न च राजयोगी। सुवर्णकायो न च हेमधातुः पुल्लिङ्गो न च राजपुत्रः॥",
+    "translation": "A king who lives in trees but not a bird; bed of grass but not a yogi; golden body but not gold; male but not a prince.",
+    "hint": "A common fruit with golden-yellow skin.",
+    "answer": "आम (Mango)"
+  },
+  {
+    "riddle": "अस्ती कुक्षी शिरो नास्ती बाहु रूअस्ती निरंगुली। अहतो नर भक्षकः यो जनाति स: पंडितः।।",
+    "translation": "It has a belly but no head, arms but no fingers; it holds the human body together. Know this to be wise.",
+    "hint": "A piece of clothing worn on the upper body.",
+    "answer": "युतकम् (Shirt)"
+  },
+  {
+    "riddle": "कृष्णमुखी न मार्जारी द्विजिह्वा न च सर्पिणी। पञ्चभर्ता न पाञ्चाली यो जानाति स पण्डितः ॥",
+    "translation": "Black-mouthed but not a cat; two tongues but not a snake; five holders but not Draupadi. He who knows is wise.",
+    "hint": "An everyday writing instrument.",
+    "answer": "कलम (Pen)"
+  }
+]

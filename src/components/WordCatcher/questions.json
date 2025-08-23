@@ -1,0 +1,181 @@
+[
+  {
+    "question": "विलोम शब्द चुनें",
+    "word": "बालक",
+    "correctAnswer": "बालिका",
+    "wrongAnswer1": "कन्या",
+    "wrongAnswer2": "बालौ"
+  },
+  {
+    "question": "विलोम शब्द चुनें",
+    "word": "प्रसन्न",
+    "correctAnswer": "उदास",
+    "wrongAnswer1": "उत्तेजित",
+    "wrongAnswer2": "रुष्ट"
+  },
+  {
+    "question": "विलोम शब्द चुनें",
+    "word": "शीतल",
+    "correctAnswer": "उष्ण",
+    "wrongAnswer1": "शीत",
+    "wrongAnswer2": "शिव"
+  },
+  {
+    "question": "विलोम शब्द चुनें",
+    "word": "मृत्यु",
+    "correctAnswer": "जीवन",
+    "wrongAnswer1": "नरक",
+    "wrongAnswer2": "शान्ति"
+  },
+  {
+    "question": "विलोम शब्द चुनें",
+    "word": "जल",
+    "correctAnswer": "अग्नि",
+    "wrongAnswer1": "पृथ्वी",
+    "wrongAnswer2": "गगन"
+  },
+
+  {
+    "question": "अनुलोम शब्द चुनें",
+    "word": "राम",
+    "correctAnswer": "मार",
+    "wrongAnswer1": "रम",
+    "wrongAnswer2": "मर"
+  },
+  {
+    "question": "अनुलोम शब्द चुनें",
+    "word": "निर्मल",
+    "correctAnswer": "लर्मिन",
+    "wrongAnswer1": "निर्मा",
+    "wrongAnswer2": "र्मलि"
+  },
+  {
+    "question": "अनुलोम शब्द चुनें",
+    "word": "धर्म",
+    "correctAnswer": "मर्हद",
+    "wrongAnswer1": "अधर्म",
+    "wrongAnswer2": "मधुर"
+  },
+  {
+    "question": "अनुलोम शब्द चुनें",
+    "word": "गोपाल",
+    "correctAnswer": "लापक",
+    "wrongAnswer1": "पालग",
+    "wrongAnswer2": "गपोल"
+  },
+  {
+    "question": "अनुलोम शब्द चुनें",
+    "word": "कृष्ण",
+    "correctAnswer": "णर्श्क",
+    "wrongAnswer1": "शुक्न",
+    "wrongAnswer2": "न्श्कर"
+  },
+
+  {
+    "question": "का विपरीत लिंग चुनें",
+    "word": "कन्या",
+    "correctAnswer": "बालक",
+    "wrongAnswer1": "नारी",
+    "wrongAnswer2": "पुत्री"
+  },
+  {
+    "question": "का विपरीत लिंग चुनें",
+    "word": "नारी",
+    "correctAnswer": "पुरुष",
+    "wrongAnswer1": "स्त्री",
+    "wrongAnswer2": "बालिका"
+  },
+  {
+    "question": "का विपरीत लिंग चुनें",
+    "word": "स्त्री",
+    "correctAnswer": "पुंस",
+    "wrongAnswer1": "कन्या",
+    "wrongAnswer2": "मित्र"
+  },
+  {
+    "question": "का विपरीत लिंग चुनें",
+    "word": "बालिका",
+    "correctAnswer": "बालक",
+    "wrongAnswer1": "नारी",
+    "wrongAnswer2": "स्त्री"
+  },
+  {
+    "question": "का विपरीत लिंग चुनें",
+    "word": "पुरुष",
+    "correctAnswer": "स्त्री",
+    "wrongAnswer1": "बालक",
+    "wrongAnswer2": "नारी"
+  },
+
+  {
+    "question": "का बहुवचन चुनें",
+    "word": "फलम्",
+    "correctAnswer": "फलानि",
+    "wrongAnswer1": "फला",
+    "wrongAnswer2": "फलं"
+  },
+  {
+    "question": "का बहुवचन चुनें",
+    "word": "पत्रम्",
+    "correctAnswer": "पत्राणि",
+    "wrongAnswer1": "पत्राः",
+    "wrongAnswer2": "पत्रे"
+  },
+  {
+    "question": "का बहुवचन चुनें",
+    "word": "फलम्",
+    "correctAnswer": "फलानि",
+    "wrongAnswer1": "फलम्",
+    "wrongAnswer2": "फलाः"
+  },
+  {
+    "question": "का बहुवचन चुनें",
+    "word": "फलम्",
+    "correctAnswer": "फलानि",
+    "wrongAnswer1": "फल",
+    "wrongAnswer2": "फलस्य"
+  },
+  {
+    "question": "का बहुवचन चुनें",
+    "word": "सुन्दरम्",
+    "correctAnswer": "सुन्दरा",
+    "wrongAnswer1": "सुन्दरो",
+    "wrongAnswer2": "सुन्दराः"
+  },
+
+  {
+    "question": "का द्विवचन चुनें",
+    "word": "फलम्",
+    "correctAnswer": "फले",
+    "wrongAnswer1": "फलानि",
+    "wrongAnswer2": "फलाः"
+  },
+  {
+    "question": "का द्विवचन चुनें",
+    "word": "पत्रम्",
+    "correctAnswer": "पते",
+    "wrongAnswer1": "पत्राणि",
+    "wrongAnswer2": "पत्राः"
+  },
+  {
+    "question": "का द्विवचन चुनें",
+    "word": "फलम्",
+    "correctAnswer": "फले",
+    "wrongAnswer1": "फला",
+    "wrongAnswer2": "फलं"
+  },
+  {
+    "question": "का द्विवचन चुनें",
+    "word": "वृक्षः",
+    "correctAnswer": "वृक्षौ",
+    "wrongAnswer1": "वृक्षा",
+    "wrongAnswer2": "वृक्षा:"
+  },
+  {
+    "question": "का द्विवचन चुनें",
+    "word": "फलम्",
+    "correctAnswer": "फले",
+    "wrongAnswer1": "फलानि",
+    "wrongAnswer2": "फलाः"
+  }
+]

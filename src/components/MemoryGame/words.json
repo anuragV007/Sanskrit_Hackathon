@@ -1,0 +1,18 @@
+[
+  { "word": "शशकः", "image": "/assets/rabit.jpeg" },
+  { "word": "सर्पः", "image": "/assets/snake.jpeg" },
+  { "word": "गजः", "image": "/assets/elephant.jpeg" },
+  { "word": "मृगः", "image": "/assets/deer.jpeg" },
+  { "word": "पर्वत:", "image": "/assets/mountain.jpeg" },
+  { "word": "नदी", "image": "/assets/river.jpeg" },
+  { "word": "फलम्", "image": "/assets/fruit.jpeg" },
+  { "word": "पक्षी", "image": "/assets/bird.jpeg" },
+  { "word": "वृक्षः", "image": "/assets/tree.jpeg" },
+  { "word": "सूर्यः", "image": "/assets/sun.jpeg" },
+  { "word": "चन्द्रमा", "image": "/assets/moon.jpeg" },
+  { "word": "जलम्", "image": "/assets/water.jpeg" },
+  { "word": "अग्निः", "image": "/assets/fire.png" },
+  { "word": "वायुः", "image": "/assets/wind.jpeg" },
+  { "word": "रक्तः", "image": "/assets/red.png" },
+  { "word": "नीलः", "image": "/assets/blue.jpeg" }
+]
