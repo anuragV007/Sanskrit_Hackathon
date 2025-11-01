@@ -1,6 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import questionsData from './questions.json';
 
+function getRandomQuestionIndex(total) {
+  return Math.floor(Math.random() * total);
+}
+
 const EGG_FALL_SPEED = 2;    
 const GAME_WIDTH = 600;      
 const EGG_SIZE = 50;         
@@ -10,7 +14,7 @@ const POSITIONS_PERCENT = [0.17, 0.5, 0.77];
 const WordCatcherGame = () => {
   const [score, setScore] = useState(0);
   const [gameOver, setGameOver] = useState(false);
-  const [currentQIndex, setCurrentQIndex] = useState(0);
+  const [currentQIndex, setCurrentQIndex] = useState(() => getRandomQuestionIndex(questionsData.length));
   const [eggs, setEggs] = useState([]);
   const [basketX, setBasketX] = useState(GAME_WIDTH / 2 - BASKET_WIDTH / 2);
   const fallInterval = useRef(null);
@@ -64,22 +68,44 @@ const WordCatcherGame = () => {
   }, [gameOver]);
 
   useEffect(() => {
-    eggs.forEach((egg) => {
-      if (egg.y + EGG_SIZE >= 400) {
-        if (egg.x + EGG_SIZE > basketX && egg.x < basketX + BASKET_WIDTH) {
-          setScore((s) => s + (egg.isCorrect ? 1 : -1));
-          if (score <= 0 && !egg.isCorrect) setGameOver(true);
-          setEggs([]);
-          setCurrentQIndex((i) => (i + 1) % questionsData.length);
-        } else if (egg.y > 420) {
-          setScore((s) => s - 1);
-          if (score <= 0) setGameOver(true);
-          setEggs([]);
-          setCurrentQIndex((i) => (i + 1) % questionsData.length);
-        }
+  if (eggs.length === 0 || gameOver) return;
+
+  let scoreChanged = false;
+
+  eggs.forEach((egg) => {
+    // Check if egg reaches basket level
+    if (!scoreChanged && egg.y + EGG_SIZE >= 400) {
+      const eggHitsBasket =
+        egg.x + EGG_SIZE > basketX && egg.x < basketX + BASKET_WIDTH;
+
+      if (eggHitsBasket) {
+        setScore((s) => {
+          const newScore = egg.isCorrect ? s + 1 : s - 1;
+          if (newScore < 0) setGameOver(true);
+          return newScore;
+        });
+        scoreChanged = true;
+        setEggs([]); // Clear eggs for next question
+        setCurrentQIndex(() => getRandomQuestionIndex(questionsData.length));
       }
+    }
+  });
+
+  // If none hit basket but one or more fell out, minus one score once
+  if (
+    !scoreChanged &&
+    eggs.some((egg) => egg.y > 420)
+  ) {
+    setScore((s) => {
+      const newScore = s - 1;
+      if (newScore < 0) setGameOver(true);
+      return newScore;
     });
-  }, [eggs, basketX, score]);
+    setEggs([]);
+    setCurrentQIndex(() => getRandomQuestionIndex(questionsData.length));
+  }
+}, [eggs, basketX, gameOver]);
+
 
   if (!questionsData.length) return <div>Loading questions...</div>;
 

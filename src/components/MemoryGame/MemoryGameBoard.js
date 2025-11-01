@@ -111,7 +111,7 @@ const MemoryGameBoard = () => {
           textShadow: '1px 1px 3px #333',
         }}
       >
-        Player 1 Score: {scores[1]} | Player 2 Score: {scores[11]} | Current Turn: Player {playerTurn}
+        Player 1 Score: {scores[1]} | Player 2 Score: {scores[2]} | Current Turn: Player {playerTurn}
       </div>
 
       {/* Cards grid with 8 columns, 4 rows */}
@@ -150,9 +150,9 @@ const MemoryGameBoard = () => {
           }}
         >
           Game Over! Winner:{' '}
-          {scores[1] > scores[11]
+          {scores[1] > scores[2]
             ? 'Player 1'
-            : scores[11] > scores[12]
+            : scores[2] > scores[1]
             ? 'Player 2'
             : 'It is a Tie!'}
         </div>
